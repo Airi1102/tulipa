@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap");
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.secao-compras {
+  background-color: lightblue;
+  width: 650px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+}
+
+
+.secao-compras h2 {
+  font-family: "Sniglet", cursive;
+  font-size: 20px;
+  color: #333333;
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 10px;
+}
+
+.tabela-compras {
+  width: 100%;
+  margin-left: 0;
+}
+
+.tabela-compras th,
+.tabela-compras td {
+  border: 1px solid #cccccc;
+  padding: 15px 12px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.tabela-compras th {
+  background-color: #f8f8f8;
+  color: #555555;
+  font-weight: bold;
+}
+
+.direita {
+  text-align: right;
+}
+
+.linha-total {
+  background-color: #fdfdfd;
+  font-weight: bold;
+}
+
+.linha-total td {
+  border-top: 2px solid #000000;
+}
